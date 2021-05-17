@@ -33,7 +33,7 @@ webサーバー -> ユーザー : ログアウト結果
 end
 
 deactivate ユーザー
-enduml
+@enduml
 ```
 
 
