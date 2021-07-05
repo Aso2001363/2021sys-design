@@ -24,6 +24,6 @@ entity "購入テーブル" as customer<d_purchase> <<M,MASTER_MARK_COLOR>>{
     purchase_date
     total_price
  }
- enduml
+ @enduml
  ```
 
