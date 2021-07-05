@@ -69,6 +69,6 @@ entity "カテゴリマスタ" as customer<m_category> <<M,MASTER_MARK_COLOR>>{
 
 ```startuml
 @startuml
-"顧客マスタ"||○--○{"購入テーブル"
+顧客マスタ||○--○{購入テーブル
 @enduml
 ```
