@@ -17,7 +17,7 @@ entity "顧客マスタ" as customer<m_customers> <<M,MASTER_MARK_COLOR>>{
 ```startuml
 @startuml
 !define MASTER_MARK_COLOR DeepSkyBlue
-entity02 "購入テーブル" as customer<d_purchase> <<M,MASTER_MARK_COLOR>>{
+entity "購入テーブル" as customer<d_purchase> <<M,MASTER_MARK_COLOR>>{
     +order_id[PK]
     --
     customer_code[PK]
