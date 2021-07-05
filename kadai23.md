@@ -26,4 +26,16 @@ entity "購入テーブル" as customer<d_purchase> <<M,MASTER_MARK_COLOR>>{
  }
  @enduml
  ```
-
+```startuml
+@startuml
+!define MASTER_MARK_COLOR DeepSkyBlue
+entity "購入詳細テーブル" as customer<d_purchase_detail> <<M,MASTER_MARK_COLOR>>{
+    +order_id[PK]
+    +detail_id[PK]
+    --
+    item_code[FK]
+    price
+    num
+ }
+ @enduml
+ ```
