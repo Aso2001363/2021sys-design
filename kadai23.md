@@ -24,7 +24,9 @@ entity "購入テーブル" as customer<d_purchase> <<M,MASTER_MARK_COLOR>>{
     purchase_date
     total_price
  }
- @enduml
+m_customer       |o--o{     d_purchase 
+@enduml
+@enduml
  ```
 ```uml
 @startuml
