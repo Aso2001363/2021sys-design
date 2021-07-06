@@ -1,4 +1,4 @@
-```startuml
+```uml
 @startuml
 !define MASTER_MARK_COLOR Orange 
 entity "顧客マスタ" as customer<m_customers> <<M,MASTER_MARK_COLOR>>{
@@ -14,7 +14,7 @@ entity "顧客マスタ" as customer<m_customers> <<M,MASTER_MARK_COLOR>>{
 }
 @enduml
 ```
-```startuml
+```uml
 @startuml
 !define MASTER_MARK_COLOR DeepSkyBlue
 entity "購入テーブル" as customer<d_purchase> <<M,MASTER_MARK_COLOR>>{
@@ -26,7 +26,7 @@ entity "購入テーブル" as customer<d_purchase> <<M,MASTER_MARK_COLOR>>{
  }
  @enduml
  ```
-```startuml
+```uml
 @startuml
 !define MASTER_MARK_COLOR DeepSkyBlue
 entity "購入詳細テーブル" as customer<d_purchase_detail> <<M,MASTER_MARK_COLOR>>{
@@ -39,7 +39,7 @@ entity "購入詳細テーブル" as customer<d_purchase_detail> <<M,MASTER_MARK
  }
  @enduml
  ```
-```startuml
+```uml
 @startuml
 !define MASTER_MARK_COLOR Orange 
 entity "商品マスタ" as customer<m_items> <<M,MASTER_MARK_COLOR>>{
@@ -55,7 +55,7 @@ entity "商品マスタ" as customer<m_items> <<M,MASTER_MARK_COLOR>>{
 }
 @enduml
 ```
-```startuml
+```uml
 @startuml
 !define MASTER_MARK_COLOR Orange 
 entity "カテゴリマスタ" as customer<m_category> <<M,MASTER_MARK_COLOR>>{
@@ -66,7 +66,7 @@ entity "カテゴリマスタ" as customer<m_category> <<M,MASTER_MARK_COLOR>>{
 }
 @enduml
 ```
-```startuml
+```uml
 @startuml
 customer       |o--o{     order 
 @enduml
