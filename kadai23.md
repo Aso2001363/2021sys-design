@@ -68,6 +68,6 @@ entity "カテゴリマスタ" as customer<m_category> <<M,MASTER_MARK_COLOR>>{
 ```
 ```uml
 @startuml
-customer       |o--o{     order 
+m_customer       |o--o{     d_purchase 
 @enduml
 ```
