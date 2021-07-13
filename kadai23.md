@@ -1,6 +1,5 @@
 ```uml
 @startuml
-!define MASTER_MARK_COLOR Orange 
 entity "顧客マスタ" as customer<m_customers> <<M,MASTER_MARK_COLOR>>{
     +customer_code[PK]
     --
@@ -12,11 +11,7 @@ entity "顧客マスタ" as customer<m_customers> <<M,MASTER_MARK_COLOR>>{
     del_flag
     reg_date
 }
-@enduml
-```
-```uml
-@startuml
-!define MASTER_MARK_COLOR DeepSkyBlue
+
 entity "購入テーブル" as customer<d_purchase> <<M,MASTER_MARK_COLOR>>{
     +order_id[PK]
     --
@@ -24,11 +19,7 @@ entity "購入テーブル" as customer<d_purchase> <<M,MASTER_MARK_COLOR>>{
     purchase_date
     total_price
  }
-@enduml
- ```
-```uml
-@startuml
-!define MASTER_MARK_COLOR DeepSkyBlue
+
 entity "購入詳細テーブル" as customer<d_purchase_detail> <<M,MASTER_MARK_COLOR>>{
     +order_id[PK]
     +detail_id[PK]
@@ -37,11 +28,7 @@ entity "購入詳細テーブル" as customer<d_purchase_detail> <<M,MASTER_MARK
     price
     num
  }
- @enduml
- ```
-```uml
-@startuml
-!define MASTER_MARK_COLOR Orange 
+
 entity "商品マスタ" as customer<m_items> <<M,MASTER_MARK_COLOR>>{
     +item_code[PK]
     --
@@ -53,11 +40,7 @@ entity "商品マスタ" as customer<m_items> <<M,MASTER_MARK_COLOR>>{
     del_flag
     reg_date
 }
-@enduml
-```
-```uml
-@startuml
-!define MASTER_MARK_COLOR Orange 
+
 entity "カテゴリマスタ" as customer<m_category> <<M,MASTER_MARK_COLOR>>{
     +category_id[PK]
     --
@@ -66,8 +49,4 @@ entity "カテゴリマスタ" as customer<m_category> <<M,MASTER_MARK_COLOR>>{
 }
 @enduml
 ```
-```uml
-@startuml
-m_customer       |o--o{     d_purchase 
-@enduml
-```
+
