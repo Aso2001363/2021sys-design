@@ -1,6 +1,6 @@
 # DB定義書
 ## ER図
-[ER図はこちら](https://github.com/Aso2001363/2021sys-design/new/main/src/md/db"ER図はこちら")
+[ER図はこちら](https://github.com/Aso2001363/2021sys-design/blob/main/kadai00.md"ER図はこちら")
 
 # DBテーブルカラム詳細設計
 
